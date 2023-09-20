@@ -1,0 +1,35 @@
+{
+  "name": "Alexy's lib",
+  "personalMedias": [
+    {
+      "title": "Programmer pour l'intelligence collective",
+      "artist": "Toby Segaran",
+      "genres": [
+        0
+      ]
+    },
+    {
+      "title": "Le meilleur des mondes",
+      "artist": "Aldous Huxley",
+      "genres": [
+        4
+      ]
+    },
+    {
+      "title": "Zaï Zaï Zaï Zaï",
+      "artist": "Fabcaro",
+      "genres": [
+        5
+      ]
+    },
+    {
+      "title": "Parasite",
+      "artist": "Bong Joon-ho",
+      "genres": [
+        8,
+        9
+      ]
+    }
+  ],
+  "sharedMedias": []
+}

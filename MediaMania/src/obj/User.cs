@@ -8,8 +8,8 @@ namespace MediaMania.src.obj
 {
     public class User
     {
-        private string name;
-        private Library library;
+        public string name { get; }
+        public Library library { get; }
 
         public User(string name, Library library)
         {

@@ -3,6 +3,7 @@ using Xunit;
 using System.Collections.Generic;
 using MediaMania.src.obj;
 using MediaMania.src.exceptions;
+using MediaMania.src.utils;
 
 public class TestMediaMania
 {
@@ -275,6 +276,19 @@ public class TestMediaMania
             thomas.Share(m10, raphael);
             raphael.Share(m10, david);
         });
+    }
+
+    [Fact]
+    public void JsonSave()
+    {
+        StorageService.Save(library, "library.json");
+        Assert.True(File.Exists("library.json"));
+        string json = File.ReadAllText("library.json");
+        Assert.Equal(1143, json.Length);
+
+        Library? l = StorageService.Load("library.json");
+        Assert.NotNull(l);
+        Assert.Equal(l.GetName(), library.GetName());
     }
 
 }

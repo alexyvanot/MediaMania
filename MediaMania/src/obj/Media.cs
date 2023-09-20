@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -9,10 +10,11 @@ namespace MediaMania.src.obj
 {
     public class Media
     {
-        private string title;
-        private string artist;
-        private List<Genre> genres;
+        public string title { get; set;  }
+        public string artist { get; set; }
+        public List<Genre> genres { get; }
 
+        [JsonConstructor]
         public Media(string title, string artist, List<Genre> genres)
         {
             this.title = title;

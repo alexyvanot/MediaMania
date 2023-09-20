@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediaMania.src.exceptions;
+using Newtonsoft.Json;
 
 namespace MediaMania.src.obj
 {
     public class Library : ILibrary
     {
-        private string name;
-        private List<Media> personalMedias;
-        private List<Media> sharedMedias;
+        public string name { get; set; }
+        public List<Media> personalMedias { get; }
+        public List<Media> sharedMedias { get; }
 
+        [JsonConstructor]
         public Library(string name)
         {
             this.name = name;
