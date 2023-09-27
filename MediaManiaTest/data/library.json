@@ -1,0 +1,65 @@
+{
+  "name": "INTECH Sharing",
+  "personalMedias": [
+    {
+      "title": "Programmer pour l'intelligence collective",
+      "artist": "Toby Segaran",
+      "genres": [
+        0
+      ]
+    },
+    {
+      "title": "La horde du Contrevent",
+      "artist": "Alain Damasio",
+      "genres": [
+        2
+      ]
+    },
+    {
+      "title": "Le mythe de Sisyphe",
+      "artist": "Albert Camus",
+      "genres": [
+        3,
+        1
+      ]
+    },
+    {
+      "title": "L'œcumène d'or",
+      "artist": "John C. Wright",
+      "genres": [
+        4
+      ]
+    },
+    {
+      "title": "Zaï Zaï Zaï Zaï",
+      "artist": "Fabcaro",
+      "genres": [
+        5
+      ]
+    },
+    {
+      "title": "Les damnés de la Commune",
+      "artist": "Raphaël Meyssan",
+      "genres": [
+        6,
+        7
+      ]
+    },
+    {
+      "title": "Parasite",
+      "artist": "Bong Joon-ho",
+      "genres": [
+        8,
+        9
+      ]
+    },
+    {
+      "title": "Le Silence des agneaux",
+      "artist": "Jonathan Demme",
+      "genres": [
+        8
+      ]
+    }
+  ],
+  "sharedMedias": []
+}

@@ -10,7 +10,7 @@ namespace MediaMania.src.obj
 {
     public class Media
     {
-        public string title { get; set;  }
+        public string title { get; set; }
         public string artist { get; set; }
         public List<Genre> genres { get; }
 
